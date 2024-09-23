@@ -1,0 +1,574 @@
+{
+  "title": "Page1",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 0,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 35,
+        "width": 90,
+        "x": 71,
+        "y": 27,
+        "order": 1
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "REST",
+          "token": "",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://api.github.com",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "BearerToken",
+          "dbObjectOptions": [],
+          "connectionStatus": "NOTSET",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": [
+        {
+          "code": "EXPORTAPPTOGIT(\"GitTest\"; \"volodymyr-stishkovskyi-eteam/newApp21\"; \"testbranch21\"; \"it's a test\")",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 70,
+        "width": 150,
+        "x": 269,
+        "y": 18,
+        "order": 3
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": [
+        {
+          "code": "EXPORTAPPTOGIT(\"GIT TEST\"; \"Preview\"; \"test branch\"; \"it's a test\")",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 35,
+        "width": 153,
+        "x": 269,
+        "y": 170,
+        "order": 2
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 35,
+        "width": 90,
+        "x": 71,
+        "y": 27,
+        "order": 1
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "REST",
+          "token": "",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://api.github.com",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "BearerToken",
+          "dbObjectOptions": [],
+          "connectionStatus": "NOTSET",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": [
+        {
+          "code": "EXPORTAPPTOGIT(\"GitTest2\"; \"volodymyr-stishkovskyi-eteam/newApp23\"; \"testbranch22\"; \"it's a test\")",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 70,
+        "width": 150,
+        "x": 269,
+        "y": 18,
+        "order": 3
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": [
+        {
+          "code": "EXPORTAPPTOGIT(\"GIT TEST\"; \"Preview\"; \"test branch\"; \"it's a test\")",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "height": 35,
+        "width": 153,
+        "x": 269,
+        "y": 170,
+        "order": 2
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [
+            ""
+          ]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}
